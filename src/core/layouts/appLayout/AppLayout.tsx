@@ -1,3 +1,9 @@
+import { Sidebar } from "../../components/sidebar/Sidebar";
+
 export function AppLayout() {
-  return <div>App Layout</div>;
+  return (
+    <Sidebar>
+      <div>App Layout</div>
+    </Sidebar>
+  );
 }
